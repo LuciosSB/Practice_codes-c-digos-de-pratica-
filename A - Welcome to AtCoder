@@ -1,0 +1,6 @@
+#O problema pedia que eu tivesse 3 interações a,b,c e uma string que precisa ter espaços entre cada letra da string
+#Problem. Your task is to process some data.You are given 3 integers a , b , c and a string s. Output result of a+b+c and string s with a half-width break.
+a = int(input())
+b, c = map(int,input().split())
+s = input()
+print(str(a+b+c)+' '+s)
